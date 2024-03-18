@@ -1,6 +1,12 @@
-import type { Metadata } from "next";
-import "./globals.css";
+import { Metadata } from "next";
 import StoreProvider from "./StoreProvider";
+import { Container } from "react-bootstrap";
+import { Ubuntu } from "next/font/google";
+import "../app/styles/main.scss";
+const ubuntu = Ubuntu({
+  weight: ["400", "500"], 
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,7 +21,11 @@ export default function RootLayout({
   return (
     <StoreProvider>
       <html lang="en">
-        <body>{children}</body>
+        <body className={ubuntu.className} >
+          <Container className="mx-auto container-max px-0">
+            {children}
+          </Container>
+        </body>
       </html>
     </StoreProvider>
   );

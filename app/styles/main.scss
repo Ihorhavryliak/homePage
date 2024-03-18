@@ -1,0 +1,13 @@
+@import '~bootstrap/scss/bootstrap';
+@import 'font.scss';
+@import 'color.scss';
+@import 'margin.scss';
+@import 'padding.scss';
+@import 'backgroundColor.scss';
+@import 'top.scss';
+@import 'hight.scss';
+@import 'width.scss';
+
+.container-max {
+  max-width: 1920px;
+}
