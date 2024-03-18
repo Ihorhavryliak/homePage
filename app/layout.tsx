@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import StoreProvider from "./StoreProvider";
 import { Container } from "react-bootstrap";
 import { Ubuntu } from "next/font/google";
-import "../app/styles/main.scss";
+import "../styles/main.scss";
 const ubuntu = Ubuntu({
   weight: ["400", "500"], 
   subsets: ["latin"],

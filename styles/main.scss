@@ -10,6 +10,8 @@
 @import './width.scss';
 @import './line.scss';
 @import './gap.scss';
+@import './maxWidth.scss';
+
 .container-max {
   max-width: 1920px;
 }
