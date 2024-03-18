@@ -21,8 +21,8 @@ export default function RootLayout({
   return (
     <StoreProvider>
       <html lang="en">
-        <body className={ubuntu.className} >
-          <Container className="mx-auto container-max px-0">
+        <body className={`${ubuntu.className}`} >
+          <Container className="mx-auto container-max px-0 bg-blue-100">
             {children}
           </Container>
         </body>

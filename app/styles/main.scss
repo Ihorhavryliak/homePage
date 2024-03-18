@@ -1,13 +1,15 @@
 @import '~bootstrap/scss/bootstrap';
-@import 'font.scss';
-@import 'color.scss';
-@import 'margin.scss';
-@import 'padding.scss';
-@import 'backgroundColor.scss';
-@import 'top.scss';
-@import 'hight.scss';
-@import 'width.scss';
-
+@import './fontSize.scss';
+@import './color.scss';
+@import './margin.scss';
+@import './padding.scss';
+@import './backgroundColor.scss';
+@import './top.scss';
+@import './left.scss';
+@import './height.scss';
+@import './width.scss';
+@import './line.scss';
+@import './gap.scss';
 .container-max {
   max-width: 1920px;
 }
