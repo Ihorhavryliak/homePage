@@ -5,16 +5,33 @@
 @import './padding.scss';
 @import './backgroundColor.scss';
 @import './top.scss';
-@import './left.scss';
 @import './height.scss';
 @import './width.scss';
 @import './line.scss';
 @import './gap.scss';
 @import './maxWidth.scss';
 @import './border.scss';
-@import './maxHeight.scss';
 @import './borderColor.scss';
+@import './shadow.scss';
+@import './borderRadios.scss';
+@import './minHeight.scss';
 
 .container-max {
   max-width: 1920px;
+}
+
+.text-cut-3 {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+}
+
+.card-hover:hover .card-hover-button {
+  visibility: visible !important;
+}
+
+.invisible {
+  visibility: hidden !important;
 }

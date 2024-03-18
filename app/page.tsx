@@ -1,9 +1,9 @@
-import Image from "next/image";
-import imageHomeTwo from "../public/assets/images/homeTwo.png";
-import imageHomeThree from "../public/assets/images/homeThree.png";
-import SectionInform from "@/components/section/SectionInform/SectionInform";
-import SectionNumber from "@/components/section/SectionNumber/SectionNumber";
-import SectionAboutBusiness from "@/components/section/SectionAboutBusiness/SectionSectionAboutBusiness";
+import SectionInform from "@/components/Section/SectionInform/SectionInform";
+import SectionNumber from "@/components/Section/SectionNumber/SectionNumber";
+import SectionAboutBusiness from "@/components/Section/SectionAboutBusiness/SectionSectionAboutBusiness";
+import SectionCard from "@/components/Section/SectionCard/SectionCard";
+import SectionContact from "@/components/Section/SectionContact/SectionContact";
+import Footer from "@/components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -11,7 +11,11 @@ export default function Home() {
       <SectionInform />
       <SectionNumber description="" number="" textTitle="" />
       <SectionAboutBusiness />
-      <Image src={imageHomeThree} width={1920} height={750} alt="imageThree" />
+      <SectionNumber description="" number="" textTitle="" isReverse={true} />
+      <SectionCard />
+      <SectionNumber description="" number="" textTitle="" />
+      <SectionContact />
+      <Footer />
     </main>
   );
 }
