@@ -51,3 +51,18 @@
 .pt-18{
   padding-top: 18px;
 }
+@media only screen and (max-width: $lg) {
+  .px-16 {
+    padding: 0 16px;
+  }
+  .pt-92{
+    padding-top: 16px;
+  }
+  .pt-210{
+    padding-top: 0px;
+  }
+  .pl-72{
+    padding-left: 8px;
+  }
+
+}

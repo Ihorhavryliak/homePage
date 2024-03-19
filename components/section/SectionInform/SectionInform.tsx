@@ -18,14 +18,14 @@ const SectionInform = () => {
           }}
         />
       </div>
-      <div className="position-absolute t-237 d-flex w-100 justify-content-center">
+      <div className="position-absolute t-237 d-flex w-100 justify-content-center px-16">
         <div className="max-w-999 text-center">
           <p className="text-24 text-white">LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT.</p>
           <h1 className="text-72 fw-bold line-89 text-center text-white mb-0">
             Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur...
           </h1>
           <div className="d-flex justify-content-center mt-33">
-            <div className="h-10 bg-green-100 w-438 d-flex justify-content-center"></div>
+            <div className="h-10 bg-green-100 w-438 d-flex justify-content-center line-info"></div>
           </div>
         </div>
       </div>

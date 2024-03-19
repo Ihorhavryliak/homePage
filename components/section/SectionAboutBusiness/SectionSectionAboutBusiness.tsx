@@ -16,7 +16,7 @@ const SectionAboutBusiness = () => {
           objectFit: "cover"
         }}
       />
-      <div className="position-absolute t-200 d-flex w-100 justify-content-center mt-126 gap-101">
+      <div className="position-absolute t-200 d-flex w-100 justify-content-center mt-126 gap-101 px-16">
         <div className="max-w-556 position-relative pt-57 pl-72 pb-57 w-100">
           <h2 className="text-72 fw-bold line-89 text-white mb-0">Why Serious Business?.</h2>
           <p className="max-w-482 w-full text-white fs-6 line-125 mt-6 mb-0">
@@ -30,7 +30,7 @@ const SectionAboutBusiness = () => {
           </div>
         </div>
 
-        <p className="max-w-482 w-full text-white fs-6 line-150 pt-18 mb-0">
+        <p className="max-w-482 w-full text-white fs-6 line-150 pt-18 mb-0 text text-cut-5">
           Donec efficitur tristique nunc, vel volutpat lectus placerat eget. Aliquam id tincidunt nunc. Morbi commodo
           maximus commodo. Integer non massa cursus tortor euismod pretium vitae eu ante. Pellentesque non urna
           pellentesque, aliquet velit in, auctor massa. Nunc non fringilla justo. Etiam consequat auctor est ac

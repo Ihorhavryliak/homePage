@@ -8,7 +8,7 @@ type SectionNumberType = {
 const SectionNumber = ({ number, textTitle, description, isReverse }: SectionNumberType) => {
   return (
     <section
-      className={`position-relative d-flex align-items-center gap-47 justify-content-center w-100 ${
+      className={`px-16 position-relative d-flex align-items-center gap-47 justify-content-center w-100 ${
         isReverse ? "flex-sm-row-reverse" : ""
       }`}
     >

@@ -10,7 +10,7 @@ export default function Home() {
     <main className="">
       <SectionInform />
       <div className="-mt-328 -mb-468 h-708 hidden">
-        <div className="position-relative -top-131px">
+        <div className="position-relative -top-131">
           <SectionNumber description="" number="" textTitle="" />
         </div>
       </div>
@@ -18,7 +18,7 @@ export default function Home() {
       <SectionAboutBusiness />
 
       <div className="-mt-398 -mb-268 h-708  hidden">
-        <div className="position-relative -top-131px">
+        <div className="position-relative -top-131">
           <SectionNumber description="" number="" textTitle="" isReverse={true} />
         </div>
       </div>

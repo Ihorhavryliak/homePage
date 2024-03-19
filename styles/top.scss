@@ -10,20 +10,32 @@
   top: -398px;
 }
 
-.-top-131px {
+.-top-131 {
   top: -131px;
 }
 
 .t-28 {
   top: 28px;
 }
-.t-200{
+
+.t-200 {
   top: 200px;
 }
-.-l-71{
+
+.-l-71 {
   left: -71px;
 }
-.-t-33{
+
+.-t-33 {
   top: -33px;
 }
 
+@media only screen and (max-width: $lg) {
+
+  .-top-131 {
+    top: 198px
+  }
+  .-l-71{
+    left: -16px;
+  }
+}

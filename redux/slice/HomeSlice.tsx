@@ -25,10 +25,8 @@ const HomeSlice = createSlice({
   initialState: initialState,
   reducers: {
     setEditItem: (state, { payload }) => {
-      debugger
       const items = state.items.map((item) => {
         if (item.id === payload.id) {
-          debugger
           return { ...item, ...payload };
         }
         return item;

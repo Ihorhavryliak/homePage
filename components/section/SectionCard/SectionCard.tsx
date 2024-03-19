@@ -29,7 +29,7 @@ const SectionCard = () => {
   }, [dispatch]);
 
   return (
-    <section className="min-h-874 bg-black position-relative z-index-2">
+    <section className="min-h-874 bg-black position-relative z-index-2 px-16 card-box">
       <h2 className="text-72 fw-bold line-89 mb-0 color-green-100 text-green-100 pt-118 d-flex justify-content-center">
         My Cards
       </h2>
