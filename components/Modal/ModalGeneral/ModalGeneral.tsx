@@ -5,9 +5,11 @@ type ModalGeneralType = {
   show: boolean;
   setShow: (val: boolean) => void;
   children: JSX.Element;
+  onChange: () => void;
+  type: string
 };
 
-const ModalGeneral = ({ show, setShow, children }: ModalGeneralType) => {
+const ModalGeneral = ({ show, setShow, children, onChange, type }: ModalGeneralType) => {
   const handleClose = () => setShow(false);
 
   return (
@@ -20,8 +22,8 @@ const ModalGeneral = ({ show, setShow, children }: ModalGeneralType) => {
         <Button variant="secondary" onClick={handleClose}>
           Close
         </Button>
-        <Button variant="primary" onClick={handleClose}>
-          Create
+        <Button variant="primary" onClick={onChange}>
+      {type === 'add' ? 'Create' : 'Edit'}    
         </Button>
       </Modal.Footer>
     </Modal>

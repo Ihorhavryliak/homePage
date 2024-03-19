@@ -5,11 +5,15 @@ import IconEdit from "../Icon/IconEdit";
 
 type ButtonDeleteEditType = {
   type: "edit" | "delete";
+  onClick: () => void;
 };
-const ButtonDeleteEdit = ({ type = "edit" }: ButtonDeleteEditType) => {
+const ButtonDeleteEdit = ({ type = "edit", onClick }: ButtonDeleteEditType) => {
   const typeDelete = type === "delete";
   return (
-    <Button className="bg-green-100 rounded-10 w-32 min-h-32 d-flex justify-content-center align-items-center border-green-100">
+    <Button
+      onClick={onClick}
+      className="bg-green-100 rounded-10 w-32 min-h-32 d-flex justify-content-center align-items-center border-green-100"
+    >
       <div className="d-flex ">{typeDelete ? <IconDelete /> : <IconEdit />}</div>
     </Button>
   );
