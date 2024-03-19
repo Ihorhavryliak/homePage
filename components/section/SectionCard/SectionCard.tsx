@@ -9,7 +9,7 @@ const SectionCard = () => {
         My Cards
       </h2>
       <div className="pt-110 d-flex justify-content-center w-100 pb-152">
-        <div className="d-flex gap-26 max-w-1136 flex-wrap ">
+        <div className="d-flex gap-26 max-w-1132 flex-wrap ">
           <div className="mb-2-c">
             <CardGeneral />
           </div>

@@ -8,14 +8,14 @@ const IconEdit = () => {
         stroke="#191B1C"
         strokeWidth="2"
         strokeLinecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M7.70913 2.50806H3.98184C3.191 2.50806 2.43261 2.81261 1.8734 3.35473C1.3142 3.89685 1 4.63212 1 5.39879V12.6256C1 13.3923 1.3142 14.1276 1.8734 14.6697C2.43261 15.2118 3.191 15.5164 3.98184 15.5164H12.1819C13.8293 15.5164 14.4183 14.2155 14.4183 12.6256V9.01221"
         stroke="#191B1C"
         strokeWidth="2"
         strokeLinecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
     </svg>
   );
