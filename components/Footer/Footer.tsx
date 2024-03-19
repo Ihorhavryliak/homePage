@@ -2,8 +2,10 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer>
-      <p className="text-16 text-white text-center mb-0 pt-30 pb-32 h-80">© Company 2024. All Rights Reserved.</p>
+    <footer className="position-relative">
+      <p className="-mt-320 h-80 text-16 text-white text-center mb-0 bottom-0 d-flex justify-content-center w-100 b-32 pt-30">
+        © Company 2024. All Rights Reserved.
+      </p>
     </footer>
   );
 };

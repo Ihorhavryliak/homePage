@@ -5,12 +5,13 @@ import Image from "next/image";
 
 const SectionContact = () => {
   return (
-    <section className="position-relative z-index-2">
-      <div className=" pt-120 w-100">
+    <section className="position-relative z-index-2 -t-250">
+      <div className="pt-120 w-100">
         <Image
+          className="w-100"
           src={imageHomeTree}
           width={1920}
-          height={530}
+          height={700}
           alt="imageHomeOne"
           loading="lazy"
           style={{
@@ -18,7 +19,7 @@ const SectionContact = () => {
           }}
         />
       </div>
-      <div className="position-absolute t-237 d-flex w-100 justify-content-center top-0 gap-109">
+      <div className="position-absolute t-249 d-flex w-100 justify-content-center gap-109">
         <div className="max-w-489 pt-120 w-100">
           <Image
             className="w-100"
@@ -33,7 +34,7 @@ const SectionContact = () => {
           />
         </div>
 
-        <div className="pt-210 contact">
+        <div className="pt-180 contact">
           <div className="color-green-100 text-36 fw-medium">Empire State Building</div>
           <p className="color-gray-100 mb-0 mt-11">350 5th Ave, New York, NY 10118</p>
           <p className="color-gray-100 mb-0 mt-11">1 212-736-3100</p>

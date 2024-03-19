@@ -1,9 +1,9 @@
-import SectionInform from "@/components/Section/SectionInform/SectionInform";
-import SectionNumber from "@/components/Section/SectionNumber/SectionNumber";
-import SectionAboutBusiness from "@/components/Section/SectionAboutBusiness/SectionSectionAboutBusiness";
-import SectionCard from "@/components/Section/SectionCard/SectionCard";
-import SectionContact from "@/components/Section/SectionContact/SectionContact";
-import Footer from "@/components/Footer/Footer";
+import SectionInform from "../components/Section/SectionInform/SectionInform";
+import SectionNumber from "../components/Section/SectionNumber/SectionNumber";
+import SectionAboutBusiness from "../components/Section/SectionAboutBusiness/SectionSectionAboutBusiness";
+import SectionCard from "../components/Section/SectionCard/SectionCard";
+import SectionContact from "../components/Section/SectionContact/SectionContact";
+import Footer from "../components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
       <SectionInform />
       <div className="-mt-328 -mb-468 h-708 hidden">
         <div className="position-relative -top-131">
-          <SectionNumber description="" number="" textTitle="" />
+          <SectionNumber description="Branding, Interactive" number="01" textTitle="Reykjavik Fashion Festival —" />
         </div>
       </div>
 
@@ -19,7 +19,12 @@ export default function Home() {
 
       <div className="-mt-398 -mb-268 h-708  hidden">
         <div className="position-relative -top-131">
-          <SectionNumber description="" number="" textTitle="" isReverse={true} />
+          <SectionNumber
+            description="User Experience, User Interface"
+            number="02"
+            textTitle="B&O Plan —"
+            isReverse={true}
+          />
         </div>
       </div>
 
@@ -27,7 +32,7 @@ export default function Home() {
 
       <div className="-mt-329 -mb-415">
         <div className="position-relative">
-          <SectionNumber description="" number="" textTitle="" />
+          <SectionNumber description="Brand Strategy, Visual Identity" number="03" textTitle="Girls Globe —" />
         </div>
       </div>
 

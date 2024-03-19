@@ -12,10 +12,10 @@ const SectionNumber = ({ number, textTitle, description, isReverse }: SectionNum
         isReverse ? "flex-sm-row-reverse" : ""
       }`}
     >
-      <div className="text-600 fw-semibold text-white position-relative t-28 z-index-1">01</div>
+      <div className="text-600 fw-semibold text-white position-relative t-28 z-index-1">{number}</div>
       <div className="-mt-167 h-242 pt-92">
-        <div className="color-green-100 text-36 fw-medium">Reykjavik Fashion Festival —</div>
-        <div className="color-gray-100">Branding, Interactive</div>
+        <div className="color-green-100 text-36 fw-medium">{textTitle}</div>
+        <div className="color-gray-100">{description}</div>
       </div>
     </section>
   );
