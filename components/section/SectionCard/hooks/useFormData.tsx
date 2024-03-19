@@ -39,7 +39,8 @@ const useFormData = ({ setShow, type, id }: UseFormDataType) => {
     register,
     watch,
     reset,
-    setValue
+    setValue,
+    clearErrors,
   } = useForm({
     resolver
   });
@@ -65,6 +66,7 @@ const useFormData = ({ setShow, type, id }: UseFormDataType) => {
       );
       setShow(false);
       reset();
+      clearErrors();
       return;
     }
 
@@ -72,6 +74,7 @@ const useFormData = ({ setShow, type, id }: UseFormDataType) => {
     dispatch(homeActions.setInitialState(data.description));
     setShow(false);
     reset();
+    clearErrors();
   };
 
   const dataInput = [
@@ -96,7 +99,8 @@ const useFormData = ({ setShow, type, id }: UseFormDataType) => {
     error: errorData,
     onSubmit,
     watch,
-    reset
+    reset,
+    clearErrors
   };
 };
 

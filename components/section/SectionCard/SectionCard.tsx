@@ -15,7 +15,7 @@ const SectionCard = () => {
   const [show, setShow] = useState(false);
   const [type, setType] = useState("add" as "add" | "edit");
   const [itemId, setItemId] = useState("");
-  const { dataInput, register, error, handleSubmit, onSubmit, watch, reset } = useFormData({
+  const { dataInput, register, error, handleSubmit, onSubmit, watch, reset, clearErrors } = useFormData({
     setShow,
     type,
     id: itemId
@@ -54,6 +54,7 @@ const SectionCard = () => {
           })}
           <ButtonGeneral
             onClick={() => {
+              clearErrors();
               reset();
               setType("add");
               setShow((prev) => !prev);
@@ -68,6 +69,7 @@ const SectionCard = () => {
           handleSubmit(onSubmit)();
         }}
         setShow={() => {
+          reset();
           setShow((prev) => !prev);
         }}
       >
@@ -91,6 +93,7 @@ const SectionCard = () => {
             return (
               <div key={`sectionCardKey${index}`} className="mb-4">
                 <InputGeneral
+                  disabled={type === "edit"}
                   value={watch(input.name as "title")}
                   label={input.label}
                   type={input.type}
