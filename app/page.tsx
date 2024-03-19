@@ -1,3 +1,4 @@
+"use client";
 import Footer from "@/components/Footer/Footer";
 import SectionAboutBusiness from "@/components/Section/SectionAboutBusiness/SectionSectionAboutBusiness";
 import SectionCard from "@/components/Section/SectionCard/SectionCard";
@@ -5,8 +6,7 @@ import SectionContact from "@/components/Section/SectionContact/SectionContact";
 import SectionInform from "@/components/Section/SectionInform/SectionInform";
 import SectionNumber from "@/components/Section/SectionNumber/SectionNumber";
 
-
-export default function Home() {
+const Home = () => {
   return (
     <main className="">
       <SectionInform />
@@ -41,4 +41,5 @@ export default function Home() {
       <Footer />
     </main>
   );
-}
+};
+export default Home;
