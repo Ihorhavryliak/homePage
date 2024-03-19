@@ -6,8 +6,9 @@ import Image from "next/image";
 
 const SectionContact = () => {
   return (
-    <section className="position-relative">
+    <section className="position-relative z-index-2">
       <Image
+      className="w-100"
         src={imageHomeTree}
         width={1920}
         height={530}

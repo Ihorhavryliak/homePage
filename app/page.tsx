@@ -9,11 +9,28 @@ export default function Home() {
   return (
     <main className="">
       <SectionInform />
-      <SectionNumber description="" number="" textTitle="" />
+      <div className="-mt-328 -mb-468 h-708 hidden">
+        <div className="position-relative -top-131px">
+          <SectionNumber description="" number="" textTitle="" />
+        </div>
+      </div>
+
       <SectionAboutBusiness />
-      <SectionNumber description="" number="" textTitle="" isReverse={true} />
+
+      <div className="-mt-398 -mb-268 h-708  hidden">
+        <div className="position-relative -top-131px">
+          <SectionNumber description="" number="" textTitle="" isReverse={true} />
+        </div>
+      </div>
+
       <SectionCard />
-      <SectionNumber description="" number="" textTitle="" />
+
+      <div className="-mt-329 -mb-415">
+        <div className="position-relative">
+          <SectionNumber description="" number="" textTitle="" />
+        </div>
+      </div>
+
       <SectionContact />
       <Footer />
     </main>

@@ -15,6 +15,8 @@
 @import './shadow.scss';
 @import './borderRadios.scss';
 @import './minHeight.scss';
+@import './zIndex.scss';
+
 
 .container-max {
   max-width: 1920px;
@@ -34,4 +36,8 @@
 
 .invisible {
   visibility: hidden !important;
+}
+
+.hidden {
+  overflow: hidden;
 }
