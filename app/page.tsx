@@ -1,10 +1,10 @@
 "use client";
-import Footer from "@/components/Footer/Footer";
-import SectionAboutBusiness from "@/components/Section/SectionAboutBusiness/SectionSectionAboutBusiness";
-import SectionCard from "@/components/Section/SectionCard/SectionCard";
-import SectionContact from "@/components/Section/SectionContact/SectionContact";
-import SectionInform from "@/components/Section/SectionInform/SectionInform";
-import SectionNumber from "@/components/Section/SectionNumber/SectionNumber";
+import Footer from "../components/Footer/Footer";
+import SectionAboutBusiness from "../components/Section/SectionAboutBusiness/SectionSectionAboutBusiness";
+import SectionCard from "../components/Section/SectionCard/SectionCard";
+import SectionContact from "../components/Section/SectionContact/SectionContact";
+import SectionInform from "../components/Section/SectionInform/SectionInform";
+import SectionNumber from "../components/Section/SectionNumber/SectionNumber";
 
 const Home = () => {
   return (
