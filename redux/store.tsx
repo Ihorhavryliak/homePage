@@ -3,8 +3,8 @@ import { homeReducer } from "./slice/HomeSlice";
 
 const store = configureStore({
   reducer: {
-    homeReducer,
-  },
+    homeReducer
+  }
 });
 
 // Infer the `RootState` and `AppDispatch` types from the store itself

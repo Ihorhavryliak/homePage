@@ -40,7 +40,7 @@ const useFormData = ({ setShow, type, id }: UseFormDataType) => {
     watch,
     reset,
     setValue,
-    clearErrors,
+    clearErrors
   } = useForm({
     resolver
   });
@@ -51,7 +51,7 @@ const useFormData = ({ setShow, type, id }: UseFormDataType) => {
       setValue("title", item.title || "");
       dispatch(homeActions.setItem({}));
     }
-  }, [dispatch, setValue, item]);
+  }, [dispatch, setValue, item, type]);
 
   const errorData = errors as ErrorUserFormType;
 

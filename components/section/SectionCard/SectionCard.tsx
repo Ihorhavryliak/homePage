@@ -35,9 +35,9 @@ const SectionCard = () => {
       </h2>
       <div className="pt-110 d-flex justify-content-center w-100 pb-152">
         <div className="d-flex gap-26 max-w-1132 flex-wrap w-100">
-          {items?.map((item) => {
+          {items?.map((item, index) => {
             return (
-              <div className="mb-2-c max-w-360 w-100">
+              <div className="mb-2-c max-w-360 w-100" key={`${index}sectionCardKey`}>
                 <CardGeneral
                   onDelete={() => dispatch(homeActions.setDeleteItem(item.id))}
                   onEdit={() => {

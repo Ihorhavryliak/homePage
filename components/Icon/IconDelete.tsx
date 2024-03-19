@@ -1,4 +1,3 @@
-
 const IconDelete = () => {
   return (
     <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -9,13 +8,7 @@ const IconDelete = () => {
         strokeLinecap="round"
         strokeLinejoin="round"
       />
-      <path
-        d="M7.125 9.75684V14.3877"
-        stroke="#191B1C"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
+      <path d="M7.125 9.75684V14.3877" stroke="#191B1C" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M17.3333 5.12598H0.999971"
         stroke="#191B1C"

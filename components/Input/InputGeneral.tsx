@@ -10,7 +10,7 @@ type InputGeneralType = {
   register: UseFormRegisterReturn;
   value: string;
   id: number;
-  disabled?:boolean
+  disabled?: boolean;
 };
 
 const InputGeneral = ({ error, label, type = "text", register, value, id, disabled }: InputGeneralType) => {
@@ -20,9 +20,7 @@ const InputGeneral = ({ error, label, type = "text", register, value, id, disabl
         <Form.Label>{label && label}</Form.Label>
         <Form.Control value={value} disabled={disabled} type={type} {...register} />
       </Form.Group>
-      {error && (
-        <div className="text-danger">{error}</div>
-      )}
+      {error && <div className="text-danger">{error}</div>}
     </div>
   );
 };

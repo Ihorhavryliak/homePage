@@ -7,6 +7,7 @@ type ButtonDeleteEditType = {
   type: "edit" | "delete";
   onClick: () => void;
 };
+
 const ButtonDeleteEdit = ({ type = "edit", onClick }: ButtonDeleteEditType) => {
   const typeDelete = type === "delete";
   return (

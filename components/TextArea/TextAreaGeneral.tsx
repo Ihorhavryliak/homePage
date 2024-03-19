@@ -20,9 +20,7 @@ const TextAreaGeneral = ({ error, label, type = "text", phone, register, value, 
         <Form.Label>{label && label}</Form.Label>
         <Form.Control as="textarea" type={type} {...register} rows={3} />
       </Form.Group>
-      {error && (
-        <div className="text-danger">{error}</div>
-      )}
+      {error && <div className="text-danger">{error}</div>}
     </div>
   );
 };

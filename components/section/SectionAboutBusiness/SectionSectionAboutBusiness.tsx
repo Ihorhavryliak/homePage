@@ -6,7 +6,7 @@ const SectionAboutBusiness = () => {
   return (
     <section className="position-relative z-index-2">
       <Image
-      className="w-100"
+        className="w-100"
         src={imageHomeOne}
         width={1920}
         height={1000}
